@@ -1,0 +1,16 @@
+.header, .footer, .body {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  border-bottom: 1px solid black;
+}
+
+.footer {
+  border-bottom: 1px solid black;
+}
