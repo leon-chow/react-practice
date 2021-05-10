@@ -1,16 +1,52 @@
 .header, .footer, .body {
   text-align: center;
   padding: 10px;
-  margin: 10px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin-left: 10%;
+}
+
+.header {
+  border-bottom: 2px solid black;
+}
+
+.footer {
+  border-bottom: 2px solid black;
+}
+
+button {
+  background-color: white;
+  width: 300px;
+  height: 50px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.cats-button {
+  border: 3px solid skyblue;
+}
+
+.dogs-button {
+  border: 3px solid gray;
+}
+
+.reset-button {
+  border: 3px solid red;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.header {
-  border-bottom: 1px solid black;
+.text {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.footer {
-  border-bottom: 1px solid black;
-}
+

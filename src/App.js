@@ -43,15 +43,17 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="header">
-            <h1> Cats and Dogs Voting App </h1>
+            <span className="text"> Cats and Dogs Voting App </span>
         </div>
         <div className="body">
-          <button onClick={() => this.onIncrement('cats')}> Cats </button>
-          <button onClick={() => this.onIncrement('dogs')}> Dogs </button>
-          <button onClick={() => this.reset()}> Reset </button>
+          <div className="buttons">
+            <button className="cats-button" onClick={() => this.onIncrement('cats')}> Cats </button> 
+            <button className="dogs-button" onClick={() => this.onIncrement('dogs')}> Dogs </button> 
+            <button className="reset-button" onClick={() => this.reset()}> Reset </button>
+          </div>
         </div>
         <div className="footer">
-          <h1> Cats - {this.state.cats} | Dogs - {this.state.dogs} </h1>
+          <span className="text"> Cats - {this.state.cats} I Dogs - {this.state.dogs} </span>
         </div> 
       </div>
       /*<div className="App">
